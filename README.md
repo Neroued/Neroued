@@ -17,16 +17,16 @@
 <p align="center">
   <a href="https://github.com/Neroued/ChromaPrint3D">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=ChromaPrint3D&show_owner=false&theme=github_dark&hide_border=true&bg_color=00000000" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=ChromaPrint3D&show_owner=false&theme=default&hide_border=true&bg_color=00000000" />
-      <img alt="ChromaPrint3D" src="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=ChromaPrint3D&show_owner=false&theme=default&hide_border=true&bg_color=00000000" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=ChromaPrint3D&show_owner=false&theme=github_dark&bg_color=00000000&border_color=30363d&description_lines_count=2&cache_seconds=21600" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=ChromaPrint3D&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de&description_lines_count=2&cache_seconds=21600" />
+      <img alt="ChromaPrint3D" src="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=ChromaPrint3D&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de&description_lines_count=2&cache_seconds=21600" />
     </picture>
   </a>
   <a href="https://github.com/Neroued/neroued_vectorizer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=neroued_vectorizer&show_owner=false&theme=github_dark&hide_border=true&bg_color=00000000" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=neroued_vectorizer&show_owner=false&theme=default&hide_border=true&bg_color=00000000" />
-      <img alt="neroued_vectorizer" src="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=neroued_vectorizer&show_owner=false&theme=default&hide_border=true&bg_color=00000000" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=neroued_vectorizer&show_owner=false&theme=github_dark&bg_color=00000000&border_color=30363d" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=neroued_vectorizer&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de" />
+      <img alt="neroued_vectorizer" src="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=neroued_vectorizer&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de" />
     </picture>
   </a>
 </p>
@@ -34,16 +34,16 @@
 <p align="center">
   <a href="https://github.com/Neroued/femSolver">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=femSolver&show_owner=false&theme=github_dark&hide_border=true&bg_color=00000000" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=femSolver&show_owner=false&theme=default&hide_border=true&bg_color=00000000" />
-      <img alt="femSolver" src="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=femSolver&show_owner=false&theme=default&hide_border=true&bg_color=00000000" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=femSolver&show_owner=false&theme=github_dark&bg_color=00000000&border_color=30363d" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=femSolver&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de" />
+      <img alt="femSolver" src="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=femSolver&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de" />
     </picture>
   </a>
   <a href="https://github.com/Neroued/mystl">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=mystl&show_owner=false&theme=github_dark&hide_border=true&bg_color=00000000" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=mystl&show_owner=false&theme=default&hide_border=true&bg_color=00000000" />
-      <img alt="mystl" src="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=mystl&show_owner=false&theme=default&hide_border=true&bg_color=00000000" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=mystl&show_owner=false&theme=github_dark&bg_color=00000000&border_color=30363d" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=mystl&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de" />
+      <img alt="mystl" src="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=mystl&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de" />
     </picture>
   </a>
 </p>
