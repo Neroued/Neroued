@@ -16,6 +16,16 @@
 
 ## NInfer
 
+<p align="center">
+  <a href="https://github.com/Neroued/ninfer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-ninfer-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-ninfer-light.svg" />
+      <img alt="NInfer" src="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-ninfer-light.svg" />
+    </picture>
+  </a>
+</p>
+
 > **A local inference engine engineered for extreme performance.**
 
 NInfer is my current flagship project, focused on making local inference as fast as possible.

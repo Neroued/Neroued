@@ -25,6 +25,26 @@ jobs:
       - name: Prepare output directory
         run: mkdir -p dist
 
+      - name: Generate NInfer card (light)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: pin
+          options: username=Neroued&repo=ninfer&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de&description_lines_count=2&card_width=860
+          path: dist/pin-ninfer-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.5
+          fail_on_error: true
+
+      - name: Generate NInfer card (dark)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: pin
+          options: username=Neroued&repo=ninfer&show_owner=false&theme=github_dark&bg_color=00000000&border_color=30363d&description_lines_count=2&card_width=860
+          path: dist/pin-ninfer-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.5
+          fail_on_error: true
+
       - name: Generate ChromaPrint3D card (light)
         uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
         with:
@@ -98,6 +118,8 @@ jobs:
         run: |
           set -euo pipefail
           expected=(
+            pin-ninfer-light.svg
+            pin-ninfer-dark.svg
             pin-chromaprint3d-light.svg
             pin-chromaprint3d-dark.svg
             pin-vectorizer-light.svg
