@@ -1,0 +1,230 @@
+name: generate profile assets
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+
+      - name: Prepare output directory
+        run: mkdir -p dist
+
+      - name: Generate ChromaPrint3D card (light)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: pin
+          options: username=Neroued&repo=ChromaPrint3D&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de&description_lines_count=2&card_width=420
+          path: dist/pin-chromaprint3d-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.5
+          fail_on_error: true
+
+      - name: Generate ChromaPrint3D card (dark)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: pin
+          options: username=Neroued&repo=ChromaPrint3D&show_owner=false&theme=github_dark&bg_color=00000000&border_color=30363d&description_lines_count=2&card_width=420
+          path: dist/pin-chromaprint3d-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.5
+          fail_on_error: true
+
+      - name: Generate vectorizer card (light)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: pin
+          options: username=Neroued&repo=neroued_vectorizer&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de&description_lines_count=2&card_width=420
+          path: dist/pin-vectorizer-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.5
+          fail_on_error: true
+
+      - name: Generate vectorizer card (dark)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: pin
+          options: username=Neroued&repo=neroued_vectorizer&show_owner=false&theme=github_dark&bg_color=00000000&border_color=30363d&description_lines_count=2&card_width=420
+          path: dist/pin-vectorizer-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.5
+          fail_on_error: true
+
+      - name: Generate femSolver card (light)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: pin
+          options: username=Neroued&repo=femSolver&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de&description_lines_count=2&card_width=420
+          path: dist/pin-femsolver-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.5
+          fail_on_error: true
+
+      - name: Generate femSolver card (dark)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: pin
+          options: username=Neroued&repo=femSolver&show_owner=false&theme=github_dark&bg_color=00000000&border_color=30363d&description_lines_count=2&card_width=420
+          path: dist/pin-femsolver-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.5
+          fail_on_error: true
+
+      - name: Generate mystl card (light)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: pin
+          options: username=Neroued&repo=mystl&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de&description_lines_count=2&card_width=420
+          path: dist/pin-mystl-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.5
+          fail_on_error: true
+
+      - name: Generate mystl card (dark)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: pin
+          options: username=Neroued&repo=mystl&show_owner=false&theme=github_dark&bg_color=00000000&border_color=30363d&description_lines_count=2&card_width=420
+          path: dist/pin-mystl-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.5
+          fail_on_error: true
+
+      - name: Generate stats card (light)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: stats
+          options: username=Neroued&show_icons=true&include_all_commits=true&hide=prs&rank_icon=github&theme=default&hide_border=true&bg_color=00000000
+          path: dist/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.5
+          fail_on_error: true
+
+      - name: Generate stats card (dark)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: stats
+          options: username=Neroued&show_icons=true&include_all_commits=true&hide=prs&rank_icon=github&theme=github_dark&hide_border=true&bg_color=00000000
+          path: dist/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.5
+          fail_on_error: true
+
+      - name: Generate top languages card (light)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: top-langs
+          options: username=Neroued&layout=compact&langs_count=6&theme=default&hide_border=true&bg_color=00000000
+          path: dist/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.5
+          fail_on_error: true
+
+      - name: Generate top languages card (dark)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: top-langs
+          options: username=Neroued&layout=compact&langs_count=6&theme=github_dark&hide_border=true&bg_color=00000000
+          path: dist/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: 2.1.5
+          fail_on_error: true
+
+      - name: Generate streak card (light)
+        uses: DenverCoder1/github-readme-streak-stats@f69662e10794e8757b12d3303a113a30b01c9bc9
+        with:
+          options: user=Neroued&theme=transparent&hide_border=true&background=FFFFFF00
+          path: dist/streak-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate streak card (dark)
+        uses: DenverCoder1/github-readme-streak-stats@f69662e10794e8757b12d3303a113a30b01c9bc9
+        with:
+          options: user=Neroued&theme=transparent&hide_border=true&background=00000000
+          path: dist/streak-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate contribution snake
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: Neroued
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Validate generated assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          expected=(
+            pin-chromaprint3d-light.svg
+            pin-chromaprint3d-dark.svg
+            pin-vectorizer-light.svg
+            pin-vectorizer-dark.svg
+            pin-femsolver-light.svg
+            pin-femsolver-dark.svg
+            pin-mystl-light.svg
+            pin-mystl-dark.svg
+            stats-light.svg
+            stats-dark.svg
+            top-langs-light.svg
+            top-langs-dark.svg
+            streak-light.svg
+            streak-dark.svg
+            github-snake.svg
+            github-snake-dark.svg
+          )
+
+          for asset in "${expected[@]}"; do
+            test -s "dist/$asset"
+            grep -q '<svg' "dist/$asset"
+          done
+
+          test "$(find dist -maxdepth 1 -type f -name '*.svg' | wc -l)" -eq "${#expected[@]}"
+
+      - name: Upload generated assets
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: profile-assets
+          path: dist
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+
+      - name: Download generated assets
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: profile-assets
+          path: dist
+
+      - name: Publish assets
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"

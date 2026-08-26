@@ -17,16 +17,16 @@
 <p align="center">
   <a href="https://github.com/Neroued/ChromaPrint3D">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=ChromaPrint3D&show_owner=false&theme=github_dark&bg_color=00000000&border_color=30363d&description_lines_count=2&card_width=420&cache_seconds=21600" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=ChromaPrint3D&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de&description_lines_count=2&card_width=420&cache_seconds=21600" />
-      <img alt="ChromaPrint3D" src="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=ChromaPrint3D&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de&description_lines_count=2&card_width=420&cache_seconds=21600" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-chromaprint3d-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-chromaprint3d-light.svg" />
+      <img alt="ChromaPrint3D" src="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-chromaprint3d-light.svg" />
     </picture>
   </a>
   <a href="https://github.com/Neroued/neroued_vectorizer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=neroued_vectorizer&show_owner=false&theme=github_dark&bg_color=00000000&border_color=30363d&description_lines_count=2&card_width=420&cache_seconds=21600" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=neroued_vectorizer&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de&description_lines_count=2&card_width=420&cache_seconds=21600" />
-      <img alt="neroued_vectorizer" src="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=neroued_vectorizer&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de&description_lines_count=2&card_width=420&cache_seconds=21600" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-vectorizer-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-vectorizer-light.svg" />
+      <img alt="neroued_vectorizer" src="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-vectorizer-light.svg" />
     </picture>
   </a>
 </p>
@@ -34,16 +34,16 @@
 <p align="center">
   <a href="https://github.com/Neroued/femSolver">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=femSolver&show_owner=false&theme=github_dark&bg_color=00000000&border_color=30363d&description_lines_count=2&card_width=420&cache_seconds=21600" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=femSolver&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de&description_lines_count=2&card_width=420&cache_seconds=21600" />
-      <img alt="femSolver" src="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=femSolver&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de&description_lines_count=2&card_width=420&cache_seconds=21600" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-femsolver-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-femsolver-light.svg" />
+      <img alt="femSolver" src="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-femsolver-light.svg" />
     </picture>
   </a>
   <a href="https://github.com/Neroued/mystl">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=mystl&show_owner=false&theme=github_dark&bg_color=00000000&border_color=30363d&description_lines_count=2&card_width=420&cache_seconds=21600" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=mystl&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de&description_lines_count=2&card_width=420&cache_seconds=21600" />
-      <img alt="mystl" src="https://github-readme-stats.vercel.app/api/pin/?username=Neroued&repo=mystl&show_owner=false&theme=default&bg_color=00000000&border_color=d0d7de&description_lines_count=2&card_width=420&cache_seconds=21600" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-mystl-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-mystl-light.svg" />
+      <img alt="mystl" src="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-mystl-light.svg" />
     </picture>
   </a>
 </p>
@@ -52,29 +52,19 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Neroued&show_icons=true&include_all_commits=true&hide=prs&rank_icon=github&theme=github_dark&hide_border=true&bg_color=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Neroued&show_icons=true&include_all_commits=true&hide=prs&rank_icon=github&theme=default&hide_border=true&bg_color=00000000" />
-    <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Neroued&show_icons=true&include_all_commits=true&hide=prs&rank_icon=github&theme=default&hide_border=true&bg_color=00000000" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/stats-light.svg" />
+    <img height="165" alt="GitHub stats" src="https://raw.githubusercontent.com/Neroued/Neroued/output/stats-light.svg" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Neroued&theme=transparent&hide_border=true&background=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Neroued&theme=transparent&hide_border=true&background=FFFFFF00" />
-    <img height="165" alt="GitHub streak" src="https://streak-stats.demolab.com?user=Neroued&theme=transparent&hide_border=true&background=FFFFFF00" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/streak-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/streak-light.svg" />
+    <img height="165" alt="GitHub streak" src="https://raw.githubusercontent.com/Neroued/Neroued/output/streak-light.svg" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Neroued&layout=compact&langs_count=6&theme=github_dark&hide_border=true&bg_color=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Neroued&layout=compact&langs_count=6&theme=default&hide_border=true&bg_color=00000000" />
-    <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Neroued&layout=compact&langs_count=6&theme=default&hide_border=true&bg_color=00000000" />
-  </picture>
-</p>
-
-<h3 align="center">Activity | 活跃度</h3>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Neroued&bg_color=00000000&color=c9d1d9&title_color=c9d1d9&line=58a6ff&point=8b949e&area=true&area_color=1f6feb&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Neroued&bg_color=00000000&color=1f2328&title_color=1f2328&line=0969da&point=57606a&area=true&area_color=9ecbff&hide_border=true" />
-    <img alt="Activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Neroued&bg_color=00000000&color=1f2328&title_color=1f2328&line=0969da&point=57606a&area=true&area_color=9ecbff&hide_border=true" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/top-langs-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/top-langs-light.svg" />
+    <img height="165" alt="Top languages" src="https://raw.githubusercontent.com/Neroued/Neroued/output/top-langs-light.svg" />
   </picture>
 </p>
 
