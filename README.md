@@ -1,18 +1,30 @@
 <h1 align="center">Neroued</h1>
 
 <p align="center">
-  C++ / Graphics / 3D Printing / Numerical Computing<br/>
-  <sub>Open-source work for graphics, fabrication, and scientific computing | 图形、3D 打印与数值计算方向的开源项目</sub>
+  <strong>C++ / CUDA / High-Performance Systems</strong><br/>
+  Building fast, practical software for local inference, graphics, and digital fabrication.<br/>
+  <sub>Shanghai</sub>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C++-17%2F20-00599C?style=flat&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/CMake-Build-064F8C?style=flat&logo=cmake&logoColor=white" alt="CMake" />
-  <img src="https://img.shields.io/github/followers/Neroued?style=flat&logo=github&label=Followers" alt="Followers" />
-  <img src="https://komarev.com/ghpvc/?username=Neroued&style=flat&color=0e75b6" alt="Profile views" />
+  <a href="https://github.com/Neroued/ninfer">Current work</a> ·
+  <a href="https://huggingface.co/neroued">Hugging Face</a> ·
+  <a href="https://github.com/Neroued?tab=repositories">Repositories</a>
 </p>
 
-<h3 align="center">Featured Projects | 精选项目</h3>
+---
+
+## NInfer
+
+> **A local inference engine engineered for extreme performance.**
+
+NInfer is my current flagship project, focused on making local inference as fast as possible.
+
+[Repository](https://github.com/Neroued/ninfer) ·
+[Documentation](https://github.com/Neroued/ninfer/tree/master/docs) ·
+[★ 1K+ GitHub stars](https://github.com/Neroued/ninfer)
+
+## Selected Work
 
 <p align="center">
   <a href="https://github.com/Neroued/ChromaPrint3D">
@@ -31,24 +43,9 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Neroued/femSolver">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-femsolver-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-femsolver-light.svg" />
-      <img alt="femSolver" src="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-femsolver-light.svg" />
-    </picture>
-  </a>
-  <a href="https://github.com/Neroued/mystl">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-mystl-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-mystl-light.svg" />
-      <img alt="mystl" src="https://raw.githubusercontent.com/Neroued/Neroued/output/pin-mystl-light.svg" />
-    </picture>
-  </a>
-</p>
+- [**neroued_3mf**](https://github.com/Neroued/neroued_3mf) — A lightweight C++20 library for writing 3MF files.
 
-<h3 align="center">Stats | 数据</h3>
+## GitHub Activity
 
 <p align="center">
   <picture>
@@ -56,30 +53,18 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/stats-light.svg" />
     <img height="165" alt="GitHub stats" src="https://raw.githubusercontent.com/Neroued/Neroued/output/stats-light.svg" />
   </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/streak-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/streak-light.svg" />
-    <img height="165" alt="GitHub streak" src="https://raw.githubusercontent.com/Neroued/Neroued/output/streak-light.svg" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/top-langs-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/top-langs-light.svg" />
-    <img height="165" alt="Top languages" src="https://raw.githubusercontent.com/Neroued/Neroued/output/top-langs-light.svg" />
-  </picture>
 </p>
-
-<h3 align="center">Contributions | 提交轨迹</h3>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Neroued/Neroued/output/github-snake.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/Neroued/Neroued/output/github-snake.svg" />
+    <img alt="Contribution graph" src="https://raw.githubusercontent.com/Neroued/Neroued/output/github-snake.svg" />
   </picture>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Neroued?tab=repositories">Repositories</a> /
-  <a href="https://github.com/Neroued?tab=stars">Stars</a> /
-  <a href="https://chromaprint3d.com/">Project Site</a>
+  <a href="https://github.com/Neroued?tab=repositories">Repositories</a> ·
+  <a href="https://huggingface.co/neroued">Hugging Face</a> ·
+  <a href="https://chromaprint3d.com/">ChromaPrint3D</a>
 </p>
